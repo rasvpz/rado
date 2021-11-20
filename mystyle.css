@@ -1,0 +1,159 @@
+body{
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;  
+  }
+    
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+  }
+  .nav {
+    float: left;
+  }
+  
+  .nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.colorChange{
+    background-color: #141414;
+}
+
+.banner{
+    position: relative;
+    width: auto;
+    height: 486px;
+    background-image: url('images/bannerImge.jpg');
+
+}
+.heading{
+    position: absolute;
+    font-size: 5em;
+    top:55%;
+    left: 15%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.section1{
+    position: relative;
+    background-color: #141414;
+    width: auto;
+    height: 560px;
+    text-align: center;
+}
+.btnDiscover{
+    position: absolute;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 10%;
+    left: 45%;
+    border-radius: 50px;
+}
+
+.sectio1Text{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    top:30%;
+    left: 13%;
+    
+}
+.btnDiscover2{
+    position:absolute;
+    padding: 10px;
+    background-color: white;
+    width: 20%;
+    left: 40%;
+    top:55%;
+    border-radius: 50px;
+}
+.section2row {
+    display: flex;
+  }
+  
+  .section2column1 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  .section2column2 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+hr{
+    width: 10%;    
+}
+
+.section3row {
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+    background-color: rgb(238, 236, 236);
+    padding-top: 100px;
+    margin-top: 120px;
+  }
+  
+  .section3column1 {
+    flex: 50%;
+    padding: 10px;
+    height: auto;
+  }
+  .section3column2 {
+    flex: 50%;
+    padding: 10px;
+    height: auto;
+  }
+
+  .section2{
+    position: relative;
+    background-color: #141414;
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+.sectio2Text{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    top:20%;
+    left: 20%;
+    
+}
+.btnDiscover3{
+    position:absolute;
+    padding: 10px;
+    background-color: white;
+    width: 20%;
+    left: 40%;
+    top:80%;
+    border-radius: 50px;
+}
